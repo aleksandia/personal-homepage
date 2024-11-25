@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   },
   description: 'Personal homepage of Aleksandar Urošević',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Aleksandar Urosevic',
+    description: 'Personal homepage of Aleksandar Urošević',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Aleksandar Urosevic',
     locale: 'en_US',
     type: 'website',
   },
