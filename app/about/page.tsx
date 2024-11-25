@@ -1,17 +1,10 @@
-import { BlogPosts } from 'app/components/posts'
-
-export default function Page() {
+const About = () => {
   return (
-    <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        About me
-      </h1>
-      <p className="mb-4">
-        {`I am Aleksandar a student at Johannes Gutenberg-University Mainz`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
-    </section>
-  )
-}
+    <div>
+      <h1>About Page</h1>
+      <p>This is the about page.</p>
+    </div>
+  );
+};
+
+export default About;
