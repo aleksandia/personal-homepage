@@ -10,7 +10,15 @@ const navItems = {
   'https://vercel.com/templates/next.js/portfolio-starter-kit': {
     name: 'deploy',
   },
-}
+  '/about': {
+    name: 'about',
+  },
+  '/contact': {
+    name: 'contact',
+    icon: 'mail', // Beispiel für eine zusätzliche Eigenschaft
+  },
+};
+
 
 export function Navbar() {
   return (
