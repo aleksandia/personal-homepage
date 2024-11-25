@@ -10,9 +10,9 @@ export default function Page() {
         {`Welcome to my website!`}
       </p>
       <ul className="!list-disc !pl-6">
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
+  <li>Undergraduate studying Economics at Johannes Gutenberg University Mainz</li>
+  <li>Working as Sysadmin </li>
+  <li>CV</li>
 </ul>
       <div className="my-8">
         <BlogPosts />
