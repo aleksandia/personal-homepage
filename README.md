@@ -1,7 +1,7 @@
 # Personal Homepage
 
 This is the personal homepage of Aleksandar Urošević.
-It is using the Portfolio-Blog-Starter Template
+It is using the Portfolio-Blog-Starter Template.
 
 
 ## How to Use
