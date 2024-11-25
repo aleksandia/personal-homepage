@@ -108,7 +108,11 @@ html {
 }
 
 .prose ul {
-  @apply list-disc pl-6;
+  @apply list-disc pl-6 text-neutral-800 dark:text-neutral-200 my-4;
+}
+
+.prose ul li {
+  @apply mb-2 leading-relaxed;
 }
 
 .prose ol {
