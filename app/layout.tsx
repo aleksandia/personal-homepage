@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'Aleksandar Urošević',
     template: '%s | Next.js Portfolio Starter',
   },
-  description: 'This is my portfolio.',
+  description: 'Personal homepage of Aleksandar Urošević',
   openGraph: {
     title: 'My Portfolio',
     description: 'This is my portfolio.',
