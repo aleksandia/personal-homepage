@@ -11,7 +11,7 @@ const navItems = {
     name: 'deploy',
   },
   '/about': {
-    name: 'about',
+    name: 'about.tsx',
   },
   '/contact': {
     name: 'contact',
