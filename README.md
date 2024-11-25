@@ -5,8 +5,7 @@ It is using the Portfolio-Blog-Starter Template
 
 
 ## How to Use
-
-You can choose from one of the following two methods to use this repository:
+A current version of the website can be seen here: https://personal-homepage-lac.vercel.app/
 
 ### One-Click Deploy
 
