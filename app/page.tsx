@@ -9,11 +9,10 @@ export default function Page() {
       <p className="mb-4">
         {`Welcome to my website!`}
       </p>
-      <ul>
+      <ul className="!list-disc !pl-6">
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
-  <li>Fourth item</li>
 </ul>
       <div className="my-8">
         <BlogPosts />
