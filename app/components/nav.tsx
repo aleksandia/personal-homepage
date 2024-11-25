@@ -10,10 +10,10 @@ const navItems = {
   'https://vercel.com/templates/next.js/portfolio-starter-kit': {
     name: 'deploy',
   },
-  '/about.tsx': {
+  '/about': {
     name: 'about',
   },
-  '/contact.tsx': {
+  '/contact': {
     name: 'contact',
     icon: 'mail', // Beispiel für eine zusätzliche Eigenschaft
   },
