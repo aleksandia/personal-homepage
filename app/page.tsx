@@ -10,11 +10,10 @@ export default function Page() {
         {`Welcome to my website!`}
       </p>
       <div className="my-8">
-      <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>  
+      - First item
+- Second item
+- Third item
+- Fourth item
 </div>
       <div className="my-8">
         <BlogPosts />
