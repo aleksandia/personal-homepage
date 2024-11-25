@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: 'Aleksandar Urošević',
-    template: '%s | Next.js Portfolio Starter',
+    template: '%s | Aleksandar Urošević',
   },
   description: 'Personal homepage of Aleksandar Urošević',
   openGraph: {
