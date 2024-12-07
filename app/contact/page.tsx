@@ -4,7 +4,7 @@ const About = () => {
      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Reach out
       </h1>
-      <p>This is the about page.</p>
+      <p>I'd love to hear from you! You can send me an e-mail at: </p>
     </div>
   );
 };
