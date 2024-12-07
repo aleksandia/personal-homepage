@@ -3,6 +3,7 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
+      <meta name="google-site-verification" content="Qw2MRfXNWiiOKsUL4-q9z7cm17nXRU6LCgQCe9ZDrjE" />
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Aleksandar Urošević
       </h1>
