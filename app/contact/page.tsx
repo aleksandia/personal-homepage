@@ -5,7 +5,7 @@ const About = () => {
         Reach out
       </h1>
       <p>I'd love to hear from you! You can send me an e-mail at: </p>
-      <a href="mailto:your-email@example.com" className="text-blue-500 underline">
+      <a href="mailto:urosevic@students.uni-mainz.de" className="text-blue-500 underline">
         your-email@example.com
       </a>
     </div>
