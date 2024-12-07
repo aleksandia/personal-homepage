@@ -12,7 +12,7 @@ export default function Page() {
       </p>
       <ul className="!list-disc !pl-6">
   <li>Undergraduate studying Economics at Johannes Gutenberg University Mainz</li>
-  <li>Working as Sysadmin </li>
+  <li>Working as a Sysadmin </li>
   <li>Participating in a club that keeps old computers running</li>
   <li><a href="https://raw.githubusercontent.com/aleksandia/personal-homepage/5bd6311d6b82566d3bba086a67cec16cf33c7ed8/CV2.pdf">CV</a></li>
 </ul>
