@@ -6,7 +6,7 @@ const About = () => {
       </h1>
       <p>I'd love to hear from you! You can send me an e-mail at: </p>
       <a href="mailto:urosevic@students.uni-mainz.de" className="text-blue-500 underline">
-        your-email@example.com
+      urosevic@students.uni-mainz.de
       </a>
     </div>
   );
