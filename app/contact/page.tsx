@@ -5,7 +5,7 @@ const Contact = () => {
         Reach out
       </h1>
       <p>I'd love to hear from you!</p><br>
-      <p>You can drop me a message at <a href="mailto:urosevic@students.uni-mainz.de">urosevic@students.uni-mainz.de</a></p>
+      <p>You can drop me a message at urosevic@students.uni-mainz.de </p>
       </div>
     );
   };
