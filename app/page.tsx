@@ -15,8 +15,9 @@ export default function Page() {
   <li>Working as a Sysadmin </li>
   <li>Participating in a club that keeps old computers running</li>
   <li><a href="https://raw.githubusercontent.com/aleksandia/personal-homepage/5bd6311d6b82566d3bba086a67cec16cf33c7ed8/CV2.pdf">CV</a></li>
-</ul>
-<h2 className="mb-8 text-2xl font-semibold tracking-tighter">
+</ul> 
+<br>
+<h2>
 Latest blog posts
   </h2>
       <div className="my-8">
