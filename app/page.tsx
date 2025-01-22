@@ -1,14 +1,17 @@
 import { BlogPosts } from 'app/components/posts';
-import Head from 'next/head'; // Ensure this is imported if you're using Next.js
+import Head from 'next/head';
 
 export default function Page() {
   return (
     <>
       <Head>
+        {/* Add all your meta tags here */}
         <meta
           name="google-site-verification"
           content="Qw2MRfXNWiiOKsUL4-q9z7cm17nXRU6LCgQCe9ZDrjE"
         />
+        <title>Aleksandar Urošević - Homepage</title>
+        <meta name="description" content="Welcome to the personal homepage of Aleksandar Urošević." />
       </Head>
       <section>
         <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
