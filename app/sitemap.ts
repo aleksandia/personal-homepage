@@ -1,11 +1,5 @@
-import fs from 'fs'
-import path from 'path'
-import { getBlogPosts } from 'app/blog/utils'
-
-export const baseUrl = 'https://urosevic.vercel.app'
-
 function getStaticPages() {
-  const dir = path.join(process.cwd(), 'app') // entry point of your app directory
+  const dir = path.join(process.cwd(), 'app')
   const entries = fs.readdirSync(dir, { withFileTypes: true })
 
   const ignored = new Set(['blog', 'components', 'public', 'og', 'rss', 'api'])
@@ -25,20 +19,6 @@ function getStaticPages() {
     return []
   })
 
-  // Add the homepage `/` manually
-  return ['/', ...routes]
-}
-
-export default async function sitemap() {
-  const blogs = getBlogPosts().map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: post.metadata.publishedAt,
-  }))
-
-  const staticPages = getStaticPages().map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date().toISOString().split('T')[0],
-  }))
-
-  return [...staticPages, ...blogs]
+  // Manually add homepage and /blog
+  return ['/', '/blog', ...routes]
 }
