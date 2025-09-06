@@ -18,9 +18,7 @@ export default function Page() {
         <meta name="robots" content="index, follow" />
       </Head>
       <section>
-        <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-          Aleksandar Urošević
-        </h1>
+              <h1 className="text-4xl font-bold mb-6">Homepage of Aleksandar Urošević</h1>
         <p className="mb-4">{`Welcome to my website!`}</p>
         <ul className="!list-disc !pl-6">
           <li>
