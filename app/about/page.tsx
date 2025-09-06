@@ -1,4 +1,17 @@
-const About = () => {
+// app/about/page.tsx
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "Learn more about Aleksandar Urosevic, his studies, IT projects, and personal interests.",
+  authors: [{ name: "Aleksandar Urosevic" }],
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://urosevic.vercel.app/about",
+  },
+};
+
+export default function About() {
   return (
     <div>
       <h1 className="text-4xl font-bold mb-6">About Me</h1>
@@ -13,6 +26,4 @@ const About = () => {
       </p>
     </div>
   );
-};
-
-export default About;
+}
