@@ -2,7 +2,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact - Aleksandar Urosevic",
+  title: "Contact",
   description: "Personal homepage of Aleksandar Urosevic",
   authors: [{ name: "Aleksandar Urosevic" }],
   robots: "index, follow",
@@ -25,3 +25,4 @@ export default function ContactPage() {
     </div>
   );
 }
+
