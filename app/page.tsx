@@ -27,7 +27,7 @@ export default function Page() {
             Undergraduate student studying Economics at Johannes Gutenberg University Mainz
           </li>
           <li>Student Assistant sysadmin at the Chair of Prof. Dr. Franz Rothlauf (Information Systems and Business Administration), Johannes Gutenberg University Mainz </li>
-          <li>Freelance WordPress migration and different web projects</li>
+          <li>WordPress migration and web projects at Johannes Gutenberg University Mainz</li>
           <li>
             <a href="https://urosevic.vercel.app/docs/cv.pdf">
               CV
