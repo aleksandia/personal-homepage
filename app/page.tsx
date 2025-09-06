@@ -11,7 +11,11 @@ export default function Page() {
           content="Qw2MRfXNWiiOKsUL4-q9z7cm17nXRU6LCgQCe9ZDrjE"
         />
         <title>Aleksandar Urošević - Homepage</title>
-        <meta name="description" content="Welcome to the personal homepage of Aleksandar Urošević." />
+        <meta name="description" content="Personal homepage of Aleksandar Urosevic" />
+        <meta name="author" content="Aleksandar Urosevic" />
+        <link rel="canonical" href="https://urosevic.vercel.app/" />
+        <meta http-equiv="content-language" content="en" />
+        <meta name="robots" content="index, follow" />
       </Head>
       <section>
         <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
@@ -20,13 +24,12 @@ export default function Page() {
         <p className="mb-4">{`Welcome to my website!`}</p>
         <ul className="!list-disc !pl-6">
           <li>
-            Undergraduate studying Economics at Johannes Gutenberg University
-            Mainz
+            Undergraduate student studying Economics at Johannes Gutenberg University Mainz
           </li>
-          <li>Working as a Sysadmin</li>
-          <li>Participating in a club that keeps old computers running</li>
+          <li>Student Assistant sysadmin at the Chair of Prof. Dr. Franz Rothlauf (Information Systems and Business Administration), Johannes Gutenberg University Mainz </li>
+          <li>Freelance WordPress migration and different web projects</li>
           <li>
-            <a href="https://raw.githubusercontent.com/aleksandia/personal-homepage/5bd6311d6b82566d3bba086a67cec16cf33c7ed8/CV2.pdf">
+            <a href="https://urosevic.vercel.app/docs/cv.pdf">
               CV
             </a>
           </li>
