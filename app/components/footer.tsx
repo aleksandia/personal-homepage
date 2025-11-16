@@ -41,15 +41,26 @@ export default function Footer() {
             <p className="ml-2 h-7">uni-mainz</p>
           </a>
         </li>
-        <li>
+                <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.sammlungen.uni-mainz.de/computersammlung/"
+            href="https://sq.jura.uni-mainz.de/"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">computersammlung</p>
+            <p className="ml-2 h-7">sq-mainz</p>
+          </a>
+        </li>
+         <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://gsb.uni-mainz.de/"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">gsb-mainz</p>
           </a>
         </li>
         <li>
