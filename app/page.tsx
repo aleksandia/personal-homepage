@@ -25,7 +25,8 @@ export default function Page() {
             Undergraduate student studying Economics at Johannes Gutenberg University Mainz
           </li>
           <li>Student Assistant sysadmin at the Chair of Prof. Dr. Franz Rothlauf (Information Systems and Business Administration), Johannes Gutenberg University Mainz </li>
-          <li>WordPress migration and web projects at Johannes Gutenberg University Mainz</li>
+          <li>Webmaster at <a href="https://sq.jura.uni-mainz.de/" target="_blank">SQ Mainz e.V.</a></li>
+           <li>Webmaster at <a href="https://gsb.uni-mainz.de/" target="_blank">Gutenberg School of Business Mainz</a></li>
           <li>
             <a href="https://urosevic.vercel.app/docs/cv.pdf">
               CV
@@ -33,7 +34,7 @@ export default function Page() {
           </li>
         </ul>
         <br />
-        <h2>Latest blog posts</h2>
+        <h2>Blog posts</h2>
         <div className="my-8">
           <BlogPosts />
         </div>
