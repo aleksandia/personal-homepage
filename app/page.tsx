@@ -25,7 +25,7 @@ export default function Page() {
             Undergraduate student studying Economics at Johannes Gutenberg University Mainz
           </li>
           <li>Student Assistant sysadmin at the Chair of Prof. Dr. Franz Rothlauf (Information Systems and Business Administration), Johannes Gutenberg University Mainz </li>
-          <li>Webmaster at <a href="https://sq.jura.uni-mainz.de/" target="_blank">SQ Mainz e.V.</a></li>
+          <li>Webmaster at <a href="https://sq.jura.uni-mainz.de/" target="_blank">Schlüsselqualifikationen Jura (SQ Mainz e.V.)</a></li>
            <li>Webmaster at <a href="https://gsb.uni-mainz.de/" target="_blank">Gutenberg School of Business Mainz</a></li>
           <li>
             <a href="https://urosevic.vercel.app/docs/cv.pdf">
