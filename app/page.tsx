@@ -21,12 +21,11 @@ export default function Page() {
       <section>
               <h1 className="text-4xl font-bold mb-6">Homepage of Aleksandar Urošević</h1>
         <p className="mb-4">{`Welcome to my website!`}</p>
-        <Image
-  src="https://urosevic.vercel.app/urosevic.jpg"
+<Image
+  src="/urosevic.jpg"
   alt="Aleksandar Urošević"
   width={300}
   height={300}
-  className="rounded-xl mb-6"
 />
         <ul className="!list-disc !pl-6">
           <li>
