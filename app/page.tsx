@@ -1,5 +1,6 @@
 import { BlogPosts } from 'app/components/posts';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -20,6 +21,13 @@ export default function Page() {
       <section>
               <h1 className="text-4xl font-bold mb-6">Homepage of Aleksandar Urošević</h1>
         <p className="mb-4">{`Welcome to my website!`}</p>
+        <Image
+  src="https://urosevic.vercel.app/urosevic.jpg"
+  alt="Aleksandar Urošević"
+  width={300}
+  height={300}
+  className="rounded-xl mb-6"
+/>
         <ul className="!list-disc !pl-6">
           <li>
             Undergraduate student studying Economics at Johannes Gutenberg University Mainz
