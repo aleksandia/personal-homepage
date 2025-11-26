@@ -50,7 +50,7 @@ export default function ContactPage() {
         <h2>Education</h2>
 
         <div className="cv-item">
-          <div className="cv-date">2023 – Present</div>
+          <div className="cv-date">10/2023 – Present</div>
           <div className="cv-content">
             <h3>B.Sc. Economics</h3>
             <p>Johannes Gutenberg University Mainz</p>
