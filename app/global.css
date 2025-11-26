@@ -246,13 +246,18 @@ table {
 }
 
 .prose ul li::marker {
-  color: #262626; /* neutral-800 */
+  color: #262626;
 }
 
 @media (prefers-color-scheme: dark) {
   .prose ul li::marker {
-    color: #e5e5e5; /* neutral-200 */
+    color: #e5e5e5;
   }
+}
+
+.prose li {
+  @apply text-neutral-800 dark:text-neutral-200;
+}
 }
 
 
