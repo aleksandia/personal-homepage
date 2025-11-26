@@ -216,6 +216,8 @@ table {
 
 .cv-content ul {
   margin: 0.4rem 0 0 1.2rem;
+  list-style: disc;
+  padding-left: 1.2rem;
 }
 
 .cv-skill-list {
@@ -259,3 +261,12 @@ table {
   @apply text-neutral-800 dark:text-neutral-200;
 }
 
+.cv-content ul li::marker {
+  color: #262626;
+}
+
+@media (prefers-color-scheme: dark) {
+  .cv-content ul li::marker {
+    color: #e5e5e5;
+  }
+}
