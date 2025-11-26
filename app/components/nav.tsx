@@ -12,9 +12,13 @@ const navItems = {
   },
   '/contact': {
     name: 'contact',
-    icon: 'mail', // Beispiel für eine zusätzliche Eigenschaft
+    icon: 'mail',
+  },
+  '/cv': {
+    name: 'curriculum vitae',
   },
 };
+
 
 
 export function Navbar() {
