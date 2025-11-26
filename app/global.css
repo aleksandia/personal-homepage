@@ -153,11 +153,12 @@ table {
   text-wrap: balance;
 }
 
-/* More visible links in normal page content (not in navbar, not in prose) */
-main a {
+/* More visible links ONLY inside .content */
+.content a {
   @apply underline decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 transition-all;
 }
 
-main a:hover {
+.content a:hover {
   @apply decoration-neutral-700 dark:decoration-neutral-300 text-neutral-900 dark:text-neutral-100;
 }
+
