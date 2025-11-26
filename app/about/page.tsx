@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-6">About Me</h1>
+      <h1 className="text-4xl font-bold mb-6">About me</h1>
       <p>
         Hi, I’m Aleksandar — welcome to my personal homepage!
         <br /><br />
