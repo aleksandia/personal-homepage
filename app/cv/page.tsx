@@ -16,11 +16,10 @@ export default function ContactPage() {
     <main className="cv-container">
       <section className="cv-header">
         <h1>Aleksandar Urosevic</h1>
-        <p>Economics Student • IT Support • Interested in Finance</p>
       </section>
 
       <section className="cv-section">
-        <h2>Experience</h2>
+        <h2>Work Experience</h2>
 
         <div className="cv-item">
           <div className="cv-date">2023 – Present</div>
@@ -55,6 +54,14 @@ export default function ContactPage() {
           <div className="cv-content">
             <h3>B.Sc. Economics</h3>
             <p>Johannes Gutenberg University Mainz</p>
+          </div>
+        </div>
+
+              <div className="cv-item">
+          <div className="cv-date">2018 – 2023</div>
+          <div className="cv-content">
+            <h3>Abitur (German equivalent to A-Levels)</h3>
+            <p>Taunusgymnasium Königstein</p>
           </div>
         </div>
       </section>
