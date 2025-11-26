@@ -22,7 +22,7 @@ export default function ContactPage() {
         <h2>Work Experience</h2>
 
         <div className="cv-item">
-          <div className="cv-date">2023 – Present</div>
+          <div className="cv-date">05/2024 – Present</div>
           <div className="cv-content">
             <h3>Student Assistant (IT Support)</h3>
             <p>Johannes Gutenberg University</p>
