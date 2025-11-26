@@ -13,15 +13,62 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div>
-      <h1 className="text-4xl font-bold mb-6">Reaching out to me</h1>
-      <p>I'd love to hear from you! You can send me an e-mail at:</p>
-      <a
-        href="mailto:urosevic@students.uni-mainz.de"
-        className="text-blue-500 underline"
-      >
-        urosevic@students.uni-mainz.de
-      </a>
-    </div>
+    <main className="cv-container">
+      <section className="cv-header">
+        <h1>Aleksandar Urosevic</h1>
+        <p>Economics Student • IT Support • Interested in Finance</p>
+      </section>
+
+      <section className="cv-section">
+        <h2>Experience</h2>
+
+        <div className="cv-item">
+          <div className="cv-date">2023 – Present</div>
+          <div className="cv-content">
+            <h3>Student Assistant (IT Support)</h3>
+            <p>Johannes Gutenberg University</p>
+            <ul>
+              <li>Helpdesk support for employees, solving IT-related problems</li>
+              <li>Assisted in configuring workstations and troubleshooting issues</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="cv-item">
+          <div className="cv-date">2022 – 2023</div>
+          <div className="cv-content">
+            <h3>Private Tutoring</h3>
+            <p>Mathematics & Economics</p>
+            <ul>
+              <li>Tutored high school students in math and basic economics</li>
+              <li>Prepared tailored exercises and explained key concepts</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="cv-section">
+        <h2>Education</h2>
+
+        <div className="cv-item">
+          <div className="cv-date">2023 – Present</div>
+          <div className="cv-content">
+            <h3>B.Sc. Economics</h3>
+            <p>Johannes Gutenberg University Mainz</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="cv-section">
+        <h2>Skills</h2>
+        <ul className="cv-skill-list">
+          <li>Excel & Data Analysis</li>
+          <li>Python (basic)</li>
+          <li>IT Support & Troubleshooting</li>
+          <li>Economic Modelling (beginner)</li>
+          <li>English (C1)</li>
+        </ul>
+      </section>
+    </main>
   );
 }
