@@ -27,8 +27,10 @@ export default function ContactPage() {
             <h3>Student Assistant (IT Support)</h3>
             <p>Johannes Gutenberg University</p>
             <ul>
-              <li>Helpdesk support for employees, solving IT-related problems</li>
-              <li>Assisted in configuring workstations and troubleshooting issues</li>
+              <li>Administration of servers and workstation computers</li>
+              <li>User support</li>
+              <li>Lending of PC equipment for research and teaching</li>
+              <li>Managing and maintaining WordPress </li>
             </ul>
           </div>
         </div>
