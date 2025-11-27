@@ -25,8 +25,8 @@ export default function Page() {
   <Image
     src="/urosevic_color.JPG"
     alt="Aleksandar Urošević"
-    width={250}
-    height={250}
+    width={350}
+    height={350}
     className="rounded-xl shadow-lg"
   />
 </div>
