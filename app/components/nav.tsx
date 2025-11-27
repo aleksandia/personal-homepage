@@ -4,12 +4,9 @@ const navItems = {
   '/': { name: 'Home' },
   '/blog': { name: 'Blog' },
   '/about': { name: 'About' },
-  '/cv': { name: 'CV' },             // ← moved up
+  '/cv': { name: 'CV' },
   '/contact': { name: 'Contact', icon: 'mail' },
 };
-
-
-
 
 export function Navbar() {
   return (
@@ -25,7 +22,7 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
+                  className="px-2 py-1 rounded-lg transition-all hover:bg-neutral-100 dark:hover:bg-neutral-800 hover:text-neutral-900 dark:hover:text-neutral-100 m-1"
                 >
                   {name}
                 </Link>
