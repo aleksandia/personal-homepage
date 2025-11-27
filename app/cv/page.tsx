@@ -96,6 +96,7 @@ export default function ContactPage() {
               <li>VMWare ESXi Server/Hypervisor</li>
               <li>Webhosting using Ubuntu Server and Apache, PHP and MySQL</li>
             </ul>
+            <br>
             <h3>Language Skills</h3>
             <ul>
               <li>German (native)</li>
