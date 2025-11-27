@@ -23,7 +23,7 @@ export default function Page() {
         <p className="mb-4">{`Welcome to my website!`}</p>
 <div className="flex justify-center my-6">
   <Image
-    src="/urosevic_color.jpg"
+    src="/urosevic_color.JPG"
     alt="Aleksandar Urošević"
     width={250}
     height={250}
