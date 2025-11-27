@@ -24,25 +24,37 @@ export default function ContactPage() {
         <div className="cv-item">
           <div className="cv-date">05/2024 – Present</div>
           <div className="cv-content">
-            <h3>Student Assistant (IT Support)</h3>
-            <p>Johannes Gutenberg University</p>
+            <h3>Student Assistant systems administrator</h3>
+            <p>Johannes Gutenberg University - Chair of Prof. Dr. Franz Rothlauf</p>
             <ul>
               <li>Administration of servers and workstation computers</li>
-              <li>User support</li>
+              <li>First level user support</li>
               <li>Lending of PC equipment for research and teaching</li>
-              <li>Managing and maintaining WordPress </li>
+              <li>Managing and maintaining WordPress projects</li>
             </ul>
           </div>
         </div>
 
         <div className="cv-item">
-          <div className="cv-date">2022 – 2023</div>
+          <div className="cv-date">03/2025 – Today</div>
           <div className="cv-content">
-            <h3>Private Tutoring</h3>
-            <p>Mathematics & Economics</p>
+            <h3>Webmaster</h3>
+            <p>SQ Mainz e.V. - Johannes Gutenberg University</p>
             <ul>
-              <li>Tutored high school students in math and basic economics</li>
-              <li>Prepared tailored exercises and explained key concepts</li>
+              <li>Website relaunch using the new WordPress layout of JGU Mainz</li>
+              <li>Revision and comprehensive update of the entire web presence</li>
+              <li>Ongoing maintenance and updates of all website content</li>
+            </ul>
+          </div>
+        </div>
+
+                <div className="cv-item">
+          <div className="cv-date">12/2025 – Today </div>
+          <div className="cv-content">
+            <h3>Webmaster</h3>
+            <p>Gutenberg School of Business (GSB) - Johannes Gutenberg University</p>
+            <ul>
+              <li>Ongoing maintenance and updates of all website content</li>
             </ul>
           </div>
         </div>
@@ -54,7 +66,7 @@ export default function ContactPage() {
         <div className="cv-item">
           <div className="cv-date">10/2023 – Present</div>
           <div className="cv-content">
-            <h3>B.Sc. Economics</h3>
+            <h3>Bachelor of Science (B.Sc.) Economics</h3>
             <p>Johannes Gutenberg University Mainz</p>
           </div>
         </div>
@@ -70,14 +82,29 @@ export default function ContactPage() {
 
       <section className="cv-section">
         <h2>Skills</h2>
-        <ul className="cv-skill-list">
-          <li>Excel & Data Analysis</li>
-          <li>Python (basic)</li>
-          <li>IT Support & Troubleshooting</li>
-          <li>Economic Modelling (beginner)</li>
-          <li>English (C1)</li>
-        </ul>
+              <div className="cv-item">
+          <div className="cv-date">2018 – 2023</div>
+          <div className="cv-content">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Ongoing maintenance and updates of all website content</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+            <section className="cv-section">
+        <h2>Extracurricular Activities</h2>
+        <div className="cv-item">
+          <div className="cv-date">10/2023 – Present</div>
+          <div className="cv-content">
+            <h3>Bachelor of Science (B.Sc.) Economics</h3>
+            <p>Johannes Gutenberg University Mainz</p>
+          </div>
+        </div>
       </section>
     </main>
   );
 }
+
+
