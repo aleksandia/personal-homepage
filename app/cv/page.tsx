@@ -22,7 +22,7 @@ export default function ContactPage() {
         <h2>Work Experience</h2>
 
         <div className="cv-item">
-          <div className="cv-date">05/2024 – Present</div>
+          <div className="cv-date">05/2024 – present</div>
           <div className="cv-content">
             <h3>Student Assistant systems administrator</h3>
             <p>Johannes Gutenberg University - Chair of Prof. Dr. Franz Rothlauf</p>
@@ -36,7 +36,7 @@ export default function ContactPage() {
         </div>
 
         <div className="cv-item">
-          <div className="cv-date">03/2025 – Today</div>
+          <div className="cv-date">03/2025 – present</div>
           <div className="cv-content">
             <h3>Webmaster</h3>
             <p>SQ Mainz e.V. - Johannes Gutenberg University</p>
@@ -49,7 +49,7 @@ export default function ContactPage() {
         </div>
 
                 <div className="cv-item">
-          <div className="cv-date">12/2025 – Today </div>
+          <div className="cv-date">12/2025 – present </div>
           <div className="cv-content">
             <h3>Webmaster</h3>
             <p>Gutenberg School of Business (GSB) - Johannes Gutenberg University</p>
@@ -64,7 +64,7 @@ export default function ContactPage() {
         <h2>Education</h2>
 
         <div className="cv-item">
-          <div className="cv-date">10/2023 – Present</div>
+          <div className="cv-date">10/2023 – present</div>
           <div className="cv-content">
             <h3>Bachelor of Science (B.Sc.) Economics</h3>
             <p>Johannes Gutenberg University Mainz</p>
@@ -120,7 +120,7 @@ export default function ContactPage() {
           </div>
         </div>
                 <div className="cv-item">
-          <div className="cv-date">2022 – Today</div>
+          <div className="cv-date">2022 – present</div>
           <div className="cv-content">
             <h3>Creating and maintaining websites for commercial purposes</h3>
             <ul>
