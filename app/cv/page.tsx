@@ -85,11 +85,22 @@ export default function ContactPage() {
       <section className="cv-section">
         <h2>Skills</h2>
               <div className="cv-item">
-          <div className="cv-date">2018 – 2023</div>
+          <div className="cv-date"></div>
           <div className="cv-content">
             <h3>Technical Skills</h3>
+            <p>Operating Systems and Applications</p>
             <ul>
-              <li>Ongoing maintenance and updates of all website content</li>
+              <li>Microsoft Office</li>
+              <li>Microsoft Windows</li>
+              <li>Linux (Ubuntu, Debian, Mint)</li>
+              <li>VMWare ESXi Server/Hypervisor</li>
+              <li>Webhosting using Ubuntu Server and Apache, PHP and MySQL</li>
+            </ul>
+            <h3>Language Skills</h3>
+            <ul>
+              <li>German (native)</li>
+              <li>English (Cambridge C1 Advanced Certification)</li>
+              <li>Serbian (native)</li>
             </ul>
           </div>
         </div>
