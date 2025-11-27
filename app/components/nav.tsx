@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
 const navItems = {
-  '/': { name: 'home' },
-  '/blog': { name: 'blog' },
-  '/about': { name: 'about' },
-  '/cv': { name: 'cv' },             // ← moved up
-  '/contact': { name: 'contact', icon: 'mail' },
+  '/': { name: 'Home' },
+  '/blog': { name: 'Blog' },
+  '/about': { name: 'About' },
+  '/cv': { name: 'CV' },             // ← moved up
+  '/contact': { name: 'Contact', icon: 'mail' },
 };
 
 
