@@ -130,6 +130,9 @@ export default function ContactPage() {
         </div>
       </section>
     </main>
+    <p className="text-sm text-gray-500 mt-8 text-center">
+  Last updated: {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long" })}
+</p>
     </>
   );
 }
