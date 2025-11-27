@@ -1,20 +1,14 @@
 import Link from 'next/link'
 
 const navItems = {
-  '/': {
-    name: 'home',
-  },
-  '/blog': {
-    name: 'blog',
-  },
-  '/about': {
-    name: 'about',
-  },
-  '/contact': {
-    name: 'contact',
-    icon: 'mail', // Beispiel für eine zusätzliche Eigenschaft
-  },
+  '/': { name: 'home' },
+  '/blog': { name: 'blog' },
+  '/about': { name: 'about' },
+  '/cv': { name: 'cv' },             // ← moved up
+  '/contact': { name: 'contact', icon: 'mail' },
 };
+
+
 
 
 export function Navbar() {

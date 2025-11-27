@@ -23,10 +23,10 @@ export default function Page() {
         <p className="mb-4">{`Welcome to my website!`}</p>
 <div className="flex justify-center my-6">
   <Image
-    src="/urosevic.jpg"
+    src="/urosevic_color.JPG"
     alt="Aleksandar Urošević"
-    width={250}
-    height={250}
+    width={350}
+    height={350}
     className="rounded-xl shadow-lg"
   />
 </div>
@@ -37,11 +37,6 @@ export default function Page() {
           <li>Student Assistant sysadmin at the Chair of Prof. Dr. Franz Rothlauf (Information Systems and Business Administration), Johannes Gutenberg University Mainz </li>
           <li>Webmaster at <a href="https://sq.jura.uni-mainz.de/" target="_blank">Schlüsselqualifikationen Jura (SQ Mainz e.V.)</a></li>
            <li>Webmaster at <a href="https://gsb.uni-mainz.de/" target="_blank">Gutenberg School of Business Mainz</a></li>
-          <li>
-            <a href="https://urosevic.vercel.app/docs/cv.pdf">
-              CV
-            </a>
-          </li>
         </ul>
         <br />
         <h2>Blog posts</h2>
