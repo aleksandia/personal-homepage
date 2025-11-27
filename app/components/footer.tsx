@@ -65,7 +65,7 @@ export default function Footer() {
                 target="_blank"
               >
                 <ArrowIcon />
-                <span className="ml-2">RSS Feed</span>
+                <span className="ml-2">rss</span>
               </a>
             </li>
             <li>
@@ -76,7 +76,7 @@ export default function Footer() {
                 target="_blank"
               >
                 <ArrowIcon />
-                <span className="ml-2">Uni Mainz – Systemadministration</span>
+                <span className="ml-2">uni-mainz</span>
               </a>
             </li>
             <li>
@@ -87,7 +87,7 @@ export default function Footer() {
                 target="_blank"
               >
                 <ArrowIcon />
-                <span className="ml-2">SQ Mainz</span>
+                <span className="ml-2">sq-mainz</span>
               </a>
             </li>
             <li>
@@ -98,7 +98,7 @@ export default function Footer() {
                 target="_blank"
               >
                 <ArrowIcon />
-                <span className="ml-2">GSB Mainz</span>
+                <span className="ml-2">gsb-mainz</span>
               </a>
             </li>
             <li>
@@ -109,7 +109,7 @@ export default function Footer() {
                 target="_blank"
               >
                 <ArrowIcon />
-                <span className="ml-2">Tech Wiki</span>
+                <span className="ml-2">tech-wiki</span>
               </a>
             </li>
           </ul>
