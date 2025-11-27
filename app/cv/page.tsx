@@ -92,7 +92,7 @@ export default function ContactPage() {
               <li>Microsoft Windows</li>
               <li>Linux (Ubuntu, Debian, Mint)</li>
               <li>VMWare ESXi Server/Hypervisor</li>
-              <li>Webhosting using Ubuntu Server and Apache, PHP and MySQL</li>
+              <li>Webhosting using Ubuntu Server, Apache, PHP and MySQL</li>
             </ul>
             <br />
             <h3>Language Skills</h3>
