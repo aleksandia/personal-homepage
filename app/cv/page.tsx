@@ -15,14 +15,6 @@ export default function ContactPage() {
   return (
      <>
       <h1 className="text-4xl font-bold mb-6">Curriculum vitae</h1>
-<a
-  href="/cv.pdf"
-  download
-  className="px-4 py-2 border border-gray-400 text-gray-700 rounded 
-             hover:bg-gray-100 hover:border-gray-600 transition-colors"
->
-  Download PDF
-</a>
     <main className="cv-container">
 
 
