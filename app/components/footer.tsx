@@ -17,10 +17,41 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mt-20 border-t border-neutral-200 dark:border-neutral-800 pt-10 mb-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        
-        {/* LEFT COLUMN – QUICK LINKS */}
+    <footer className="mt-20 border-t border-neutral-200 dark:border-neutral-800 pt-14 mb-16">
+
+      {/* TOP HEADER BLOCK */}
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-semibold tracking-tight text-neutral-800 dark:text-neutral-100">
+          Aleksandar Urošević
+        </h2>
+
+        <p className="text-neutral-600 dark:text-neutral-400 mt-2">
+          © {new Date().getFullYear()} — All rights reserved
+        </p>
+
+        <p className="text-neutral-500 dark:text-neutral-500 text-sm mt-1">
+          Last updated: <span className="font-medium">27 November 2025</span>
+        </p>
+      </div>
+
+      {/* THREE COLUMNS */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+        {/* COLUMN 1: SITE PAGES */}
+        <div>
+          <h3 className="text-sm uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-4">
+            Pages
+          </h3>
+          <ul className="space-y-3 text-neutral-600 dark:text-neutral-300">
+            <li><a href="/" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">Home</a></li>
+            <li><a href="/about" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">About</a></li>
+            <li><a href="/blog" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">Blog</a></li>
+            <li><a href="/cv" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">CV</a></li>
+            <li><a href="/contact" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">Contact</a></li>
+          </ul>
+        </div>
+
+        {/* COLUMN 2: QUICK LINKS */}
         <div>
           <h3 className="text-sm uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-4">
             Quick Links
@@ -29,20 +60,20 @@ export default function Footer() {
             <li>
               <a
                 className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="/rss"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="/rss"
               >
                 <ArrowIcon />
-                <span className="ml-2">RSS</span>
+                <span className="ml-2">RSS Feed</span>
               </a>
             </li>
             <li>
               <a
                 className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="https://rewi.uni-mainz.de/systemadministration/"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://rewi.uni-mainz.de/systemadministration/"
               >
                 <ArrowIcon />
                 <span className="ml-2">Uni Mainz – Systemadministration</span>
@@ -51,9 +82,9 @@ export default function Footer() {
             <li>
               <a
                 className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="https://sq.jura.uni-mainz.de/"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://sq.jura.uni-mainz.de/"
               >
                 <ArrowIcon />
                 <span className="ml-2">SQ Mainz</span>
@@ -62,9 +93,9 @@ export default function Footer() {
             <li>
               <a
                 className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="https://gsb.uni-mainz.de/"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://gsb.uni-mainz.de/"
               >
                 <ArrowIcon />
                 <span className="ml-2">GSB Mainz</span>
@@ -73,9 +104,9 @@ export default function Footer() {
             <li>
               <a
                 className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="http://urosevic.de/tech-wiki"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="http://urosevic.de/tech-wiki"
               >
                 <ArrowIcon />
                 <span className="ml-2">Tech Wiki</span>
@@ -84,20 +115,19 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* RIGHT COLUMN – SITE INFO */}
+        {/* COLUMN 3: SITE INFO */}
         <div>
           <h3 className="text-sm uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-4">
             Site Information
           </h3>
           <p className="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-3">
-            © {new Date().getFullYear()} Aleksandar Urošević
+            This website is built with Next.js and Tailwind CSS.
           </p>
-
-          {/* Optional last updated line */}
           <p className="text-neutral-500 dark:text-neutral-400 text-sm">
-            Last updated: <span className="font-medium">27 Nov 2025</span>
+            Hosted on Vercel  
           </p>
         </div>
+
       </div>
     </footer>
   );
