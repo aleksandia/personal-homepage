@@ -119,6 +119,15 @@ export default function ContactPage() {
             </ul>
           </div>
         </div>
+                <div className="cv-item">
+          <div className="cv-date">2022 – Today</div>
+          <div className="cv-content">
+            <h3>Creating and maintaining websites for commercial purposes</h3>
+            <ul>
+              <li>Klavierhof: <a href="https://www.klavierhof.com">www.klavierhof.com</a></li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
     </>
