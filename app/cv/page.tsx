@@ -16,9 +16,7 @@ export default function ContactPage() {
      <>
       <h1 className="text-4xl font-bold mb-6">Curriculum vitae</h1>
     <main className="cv-container">
-      <section className="cv-header">
-        <h1>Aleksandar Urosevic</h1>
-      </section>
+
 
       <section className="cv-section">
         <h2>Work Experience</h2>
@@ -96,6 +94,7 @@ export default function ContactPage() {
               <li>VMWare ESXi Server/Hypervisor</li>
               <li>Webhosting using Ubuntu Server and Apache, PHP and MySQL</li>
             </ul>
+            <br />
             <h3>Language Skills</h3>
             <ul>
               <li>German (native)</li>
@@ -112,7 +111,7 @@ export default function ContactPage() {
           <div className="cv-date">10/2025 – 04/2026</div>
           <div className="cv-content">
             <h3>Tutor at the Chair of Marketing Analytics – Subject: Marketing</h3>
-            <p>Johannes Gutenberg University Mainz</p>
+            <p>Johannes Gutenberg University Mainz - Chair of Prof. Dr. Frank Huber</p>
             <ul>
               <li>Conducted weekly tutorials</li>
               <li>Part of the final exam corrected</li>
