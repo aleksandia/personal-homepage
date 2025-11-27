@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
+      <h1 className="text-4xl font-bold mb-6">Curriculum vitae</h1>
     <main className="cv-container">
       <section className="cv-header">
         <h1>Aleksandar Urosevic</h1>
