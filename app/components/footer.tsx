@@ -12,72 +12,110 @@ function ArrowIcon() {
         fill="currentColor"
       />
     </svg>
-  )
+  );
 }
 
 export default function Footer() {
   return (
-    <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="/rss"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://rewi.uni-mainz.de/systemadministration/"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">uni-mainz</p>
-          </a>
-        </li>
-                <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://sq.jura.uni-mainz.de/"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">sq-mainz</p>
-          </a>
-        </li>
-         <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://gsb.uni-mainz.de/"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">gsb-mainz</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="http://urosevic.de/tech-wiki"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">tech-wiki</p>
-          </a>
-        </li>
-      </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} Aleksandar Urošević
-      </p>
+    <footer className="mt-20 border-t border-neutral-200 dark:border-neutral-800 pt-14 mb-16">
+
+      {/* TOP HEADER BLOCK */}
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-semibold tracking-tight text-neutral-800 dark:text-neutral-100">
+          Aleksandar Urošević
+        </h2>
+
+        <p className="text-neutral-600 dark:text-neutral-400 mt-2">
+          © {new Date().getFullYear()} — All rights reserved
+        </p>
+
+        <p className="text-neutral-500 dark:text-neutral-500 text-sm mt-1">
+          Last updated: <span className="font-medium">27 November 2025</span>
+        </p>
+      </div>
+
+      {/* TWO COLUMNS */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+        {/* COLUMN 1: SITE PAGES */}
+        <div>
+          <h3 className="text-sm uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-4">
+            Pages
+          </h3>
+          <ul className="space-y-3 text-neutral-600 dark:text-neutral-300">
+            <li><a href="/" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">Home</a></li>
+            <li><a href="/about" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">About</a></li>
+            <li><a href="/blog" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">Blog</a></li>
+            <li><a href="/cv" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">CV</a></li>
+            <li><a href="/contact" className="hover:text-neutral-800 dark:hover:text-neutral-100 transition-all">Contact</a></li>
+          </ul>
+        </div>
+
+        {/* COLUMN 2: QUICK LINKS */}
+        <div>
+          <h3 className="text-sm uppercase tracking-wide text-neutral-500 dark:text-neutral-400 mb-4">
+            Quick Links
+          </h3>
+          <ul className="space-y-3 text-neutral-600 dark:text-neutral-300">
+            <li>
+              <a
+                className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="/rss"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ArrowIcon />
+                <span className="ml-2">rss</span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="https://rewi.uni-mainz.de/systemadministration/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ArrowIcon />
+                <span className="ml-2">uni-mainz</span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="https://sq.jura.uni-mainz.de/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ArrowIcon />
+                <span className="ml-2">sq-mainz</span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="https://gsb.uni-mainz.de/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ArrowIcon />
+                <span className="ml-2">gsb-mainz</span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+                href="http://urosevic.de/tech-wiki"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ArrowIcon />
+                <span className="ml-2">tech-wiki</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
     </footer>
-  )
+  );
 }

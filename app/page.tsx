@@ -19,7 +19,7 @@ export default function Page() {
         <meta name="robots" content="index, follow" />
       </Head>
       <section>
-              <h1 className="text-4xl font-bold mb-6">Homepage of Aleksandar Urošević</h1>
+              <h1 className="text-4xl font-bold mb-6">Home</h1>
 <div className="flex justify-center my-6">
   <Image
     src="/urosevic_color.JPG"
