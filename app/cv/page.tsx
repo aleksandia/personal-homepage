@@ -109,10 +109,15 @@ export default function ContactPage() {
             <section className="cv-section">
         <h2>Extracurricular Activities</h2>
         <div className="cv-item">
-          <div className="cv-date">10/2023 – Present</div>
+          <div className="cv-date">10/2025 – 04/2026</div>
           <div className="cv-content">
-            <h3>Bachelor of Science (B.Sc.) Economics</h3>
+            <h3>Tutor at the Chair of Marketing Analytics – Subject: Marketing</h3>
             <p>Johannes Gutenberg University Mainz</p>
+            <ul>
+              <li>Conducted weekly tutorials</li>
+              <li>Part of the final exam corrected</li>
+              <li>Supervised the exam review</li>
+            </ul>
           </div>
         </div>
       </section>
