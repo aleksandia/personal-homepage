@@ -30,7 +30,7 @@ export default function Footer() {
         </p>
 
         <p className="text-neutral-500 dark:text-neutral-500 text-sm mt-1">
-          Last updated: <span className="font-medium">27 November 2025</span>
+          Last updated: <span className="font-medium">01 February 2026</span>
         </p>
       </div>
 
