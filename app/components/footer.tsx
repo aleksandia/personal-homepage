@@ -71,7 +71,7 @@ export default function Footer() {
             <li>
   <a
     className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
-    href="www.linkedin.com/in/aleksandar-urosevic-6881453aa"
+    href="https://linkedin.com/in/aleksandar-urosevic-6881453aa"
     rel="noopener noreferrer"
     target="_blank"
   >
