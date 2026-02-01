@@ -69,6 +69,17 @@ export default function Footer() {
               </a>
             </li>
             <li>
+  <a
+    className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+    href="www.linkedin.com/in/aleksandar-urosevic-6881453aa"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <ArrowIcon />
+    <span className="ml-2">linkedin</span>
+  </a>
+</li>
+            <li>
               <a
                 className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
                 href="https://rewi.uni-mainz.de/systemadministration/"
