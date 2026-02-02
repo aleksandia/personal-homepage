@@ -33,7 +33,7 @@ export default function Page() {
           <li>
             Undergraduate student studying Economics at Johannes Gutenberg University Mainz
           </li>
-          <li>Systems Administrator (Student Assistant) at the Chair of Prof. Dr. Franz Rothlauf (Information Systems and Business Administration), Johannes Gutenberg University Mainz </li>
+          <li>Systems Administrator (Student Assistant) at <a href="https://en.wi.bwl.uni-mainz.de/" target="_blank">the Chair of Prof. Dr. Franz Rothlauf (Information Systems and Business Administration)</a></li>
           <li>Webmaster at <a href="https://sq.jura.uni-mainz.de/" target="_blank">Schlüsselqualifikationen Jura (SQ Mainz e.V.)</a></li>
            <li>Webmaster at <a href="https://gsb.uni-mainz.de/" target="_blank">Gutenberg School of Business Mainz</a></li>
         </ul>
