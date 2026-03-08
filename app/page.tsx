@@ -1,4 +1,3 @@
-import { BlogPosts } from 'app/components/posts';
 import Head from 'next/head';
 import Image from 'next/image';
 
