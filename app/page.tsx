@@ -37,10 +37,6 @@ export default function Page() {
            <li>Webmaster at <a href="https://gsb.uni-mainz.de/" target="_blank">Gutenberg School of Business Mainz</a></li>
         </ul>
         <br />
-        <h2>Blog posts</h2>
-        <div className="my-8">
-          <BlogPosts />
-        </div>
       </section>
     </>
   );
