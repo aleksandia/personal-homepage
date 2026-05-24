@@ -41,7 +41,7 @@ export default function ContactPage() {
             <h3>Webmaster</h3>
             <p>SQ Mainz e.V. - Johannes Gutenberg University</p>
             <ul>
-              <li>Website relaunch using the new WordPress layout of JGU Mainz</li>
+              <li>Website relaunch using the new CMS WordPress layout of JGU Mainz</li>
               <li>Revision and comprehensive update of the entire web presence</li>
               <li>Ongoing maintenance and updates of all website content</li>
             </ul>
@@ -54,6 +54,19 @@ export default function ContactPage() {
             <h3>Webmaster</h3>
             <p>Gutenberg School of Business (GSB) - Johannes Gutenberg University</p>
             <ul>
+              <li>Ongoing maintenance and updates of all website content</li>
+            </ul>
+          </div>
+        </div>
+
+                        <div className="cv-item">
+          <div className="cv-date">05/2026 – present </div>
+          <div className="cv-content">
+            <h3>Webmaster</h3>
+            <p>Chair of Marketing Analytics Prof. Dr. Frank Huber - Johannes Gutenberg University</p>
+            <ul>
+              <li>Website relaunch using the new CMS and WordPress layout of JGU Mainz</li>
+              <li>Revision and comprehensive update of the entire web presence</li>
               <li>Ongoing maintenance and updates of all website content</li>
             </ul>
           </div>
