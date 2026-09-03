@@ -2,7 +2,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Curriculum vitae | Aleksandar Urošević",
+  title: "Curriculum vitae",
   description:
     "CV of Aleksandar Urošević — Systems Administrator and Webmaster at Johannes Gutenberg University Mainz, B.Sc. Economics student.",
   authors: [{ name: "Aleksandar Urosevic" }],
