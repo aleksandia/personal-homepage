@@ -202,7 +202,6 @@ export default function CvPage() {
         <li>Ubuntu Server, Apache, PHP, MySQL</li>
         <li>WordPress administration across multiple independent installations</li>
         <li>Docker container administration (BookStack, HedgeDoc, Memos, Stirling PDF, Overleaf, TYPO3)</li>
-        <li>Documentation platforms and self-hosted services</li>
       </ul>
       <br />
 
