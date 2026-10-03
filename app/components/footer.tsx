@@ -29,9 +29,6 @@ export default function Footer() {
           © {new Date().getFullYear()} — All rights reserved
         </p>
 
-        <p className="text-neutral-500 dark:text-neutral-500 text-sm mt-1">
-          Last updated: <span className="font-medium">01 February 2026</span>
-        </p>
       </div>
 
       {/* TWO COLUMNS */}
