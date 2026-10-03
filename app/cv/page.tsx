@@ -203,7 +203,7 @@ export default function CvPage() {
 </section>
 
         <section className="cv-section">
-          <h2>Extracurricular Activities</h2>
+          <h2>Additional Activities</h2>
           <div className="cv-item">
             <div className="cv-date">
               <time dateTime="2025-10">10/2025</time> – <time dateTime="2026-04">04/2026</time>
