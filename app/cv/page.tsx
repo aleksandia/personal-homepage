@@ -192,6 +192,9 @@ export default function CvPage() {
               <h3>Creating and maintaining websites for commercial purposes</h3>
               <ul>
                 <li>
+                   KLOSSOK | Coaching & Training: <a href="https://klossok-coaching.de">www.klossok-coaching.de</a>
+                </li>
+                <li>
                   Klavierhof: <a href="https://www.klavierhof.com">www.klavierhof.com</a>
                 </li>
               </ul>
