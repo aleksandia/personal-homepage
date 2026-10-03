@@ -189,7 +189,7 @@ export default function CvPage() {
               <time dateTime="2022">2022</time> – present
             </div>
             <div className="cv-content">
-              <h3>Creating and maintaining websites for commercial purposes</h3>
+              <h3>Development and maintenance of commercial websites</h3>
               <ul>
                 <li>
                    KLOSSOK | Coaching & Training: <a href="https://klossok-coaching.de">www.klossok-coaching.de</a>
@@ -203,7 +203,7 @@ export default function CvPage() {
         </section>
       </main>
       <p className="text-sm text-gray-500 mt-8 text-center">
-        Last updated: May 2026
+        Last updated: October 2026
       </p>
     </>
   );
