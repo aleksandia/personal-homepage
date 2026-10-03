@@ -143,30 +143,64 @@ export default function CvPage() {
           </div>
         </section>
 
-        <section className="cv-section">
-          <h2>Skills</h2>
-          <div className="cv-item">
-            <div className="cv-date"></div>
-            <div className="cv-content">
-              <h3>Technical Skills</h3>
-              <p>Operating Systems and Applications</p>
-              <ul>
-                <li>Microsoft Office</li>
-                <li>Microsoft Windows</li>
-                <li>Linux (Ubuntu, Debian, Mint)</li>
-                <li>VMWare ESXi Server/Hypervisor</li>
-                <li>Webhosting using Ubuntu Server, Apache, PHP and MySQL</li>
-              </ul>
-              <br />
-              <h3>Language Skills</h3>
-              <ul>
-                <li>German (native)</li>
-                <li>English (Cambridge C1 Advanced Certification)</li>
-                <li>Serbian (native)</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+<section className="cv-section">
+  <h2>Skills</h2>
+  <div className="cv-item">
+    <div className="cv-date"></div>
+    <div className="cv-content">
+      <h3>Technical Skills</h3>
+
+      <h4>Virtualization &amp; Infrastructure</h4>
+      <ul>
+        <li>VMware ESXi 6.5 (host management, VM deployment, datastores, vSwitch networking)</li>
+        <li>Multi-VM administration across mixed Linux and Windows guests</li>
+        <li>Server hardware administration (Fujitsu PRIMERGY, multi-site deployments)</li>
+      </ul>
+      <br />
+
+      <h4>Operating Systems</h4>
+      <ul>
+        <li>Linux: Ubuntu Server, Debian, Linux Mint</li>
+        <li>Windows: Windows 7/10, Windows Server 2008 R2</li>
+        <li>Legacy system administration (Windows XP, RHEL 6)</li>
+      </ul>
+      <br />
+
+      <h4>Networking &amp; Remote Access</h4>
+      <ul>
+        <li>Wireless: Ruckus Unleashed and FortiAP / FortiCloud for remote management </li>
+        <li>Remote access and site connectivity via Tailscale</li>
+        <li>DNS services (Pi-hole), IP planning, network segregation</li>
+      </ul>
+      <br />
+
+      <h4>Unified Communications</h4>
+      <ul>
+        <li>Cisco Unified Communications Manager (versions 7, 11 and 15)</li>
+        <li>Cisco Unity Connection (versions 7 and 11)</li>
+        <li>FreePBX with external SIP trunking (internal and external call routing)</li>
+        <li>SIP trunk interop between CUCM and FreePBX</li>
+      </ul>
+      <br />
+
+      <h4>Web &amp; Application Hosting</h4>
+      <ul>
+        <li>Ubuntu Server, Apache, PHP, MySQL</li>
+        <li>WordPress (multi-site administration and relaunch)</li>
+        <li>Docker container administration (BookStack, HedgeDoc, Memos, Stirling PDF, Overleaf, TYPO3)</li>
+        <li>Documentation platforms and self-hosted services</li>
+      </ul>
+      <br />
+
+      <h3>Language Skills</h3>
+      <ul>
+        <li>German (native)</li>
+        <li>English (Cambridge C1 Advanced Certification)</li>
+        <li>Serbian (native)</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
         <section className="cv-section">
           <h2>Extracurricular Activities</h2>
