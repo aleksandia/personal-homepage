@@ -31,6 +31,7 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Aleksandar Urošević",
+  alternateName: "Aleksandar Urosevic",
   url: "https://urosevic.vercel.app",
   jobTitle: "Systems Administrator / Webmaster",
   worksFor: {
@@ -42,6 +43,19 @@ const personJsonLd = {
     name: "Johannes Gutenberg University Mainz",
   },
   knowsLanguage: ["German", "English", "Serbian"],
+  knowsAbout: [
+    "Systems Administration",
+    "VMware ESXi",
+    "Linux Administration",
+    "Network Administration",
+    "Cisco Unified Communications Manager",
+    "Cisco Unity Connection",
+    "FreePBX",
+    "SIP Trunking",
+    "Web Development",
+    "WordPress",
+    "Docker",
+  ],
   sameAs: [
     "https://linkedin.com/in/aleksandar-urosevic-6881453aa",
   ],
@@ -186,7 +200,7 @@ export default function CvPage() {
       <h4>Web &amp; Application Hosting</h4>
       <ul>
         <li>Ubuntu Server, Apache, PHP, MySQL</li>
-        <li>WordPress (multi-site administration and relaunch)</li>
+        <li>WordPress administration across multiple independent installations</li>
         <li>Docker container administration (BookStack, HedgeDoc, Memos, Stirling PDF, Overleaf, TYPO3)</li>
         <li>Documentation platforms and self-hosted services</li>
       </ul>
