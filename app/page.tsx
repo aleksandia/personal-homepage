@@ -52,7 +52,7 @@ export default function Page() {
           </li>
               <li>
             Webmaster at{' '}
-            <a href="https://marketing.bwl.uni-mainz.de/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.marketing.bwl.uni-mainz.de/" target="_blank" rel="noopener noreferrer">
               the Chair of Prof. Dr. Frank Huber (Marketing Analytics)
             </a>
           </li>
