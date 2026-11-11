@@ -50,10 +50,16 @@ export default function Page() {
               Gutenberg School of Business Mainz
             </a>
           </li>
+              <li>
+            Webmaster at{' '}
+            <a href="https://marketing.bwl.uni-mainz.de/" target="_blank" rel="noopener noreferrer">
+              the Chair of Prof. Dr. Frank Huber (Marketing Analytics)
+            </a>
+          </li>
         </ul>
 
         <br />
-        <h2>Current Web Projects</h2>
+       <h2 className="text-2xl font-bold mt-10 mb-4">Current Web Projects</h2>
         <ul className="!list-disc !pl-6">
           <li>
             <a href="https://klossok-coaching.de/" target="_blank" rel="noopener noreferrer">
